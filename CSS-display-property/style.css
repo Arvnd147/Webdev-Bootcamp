@@ -1,0 +1,20 @@
+p{
+    background-color: red;
+    width: 200px;/*We can very well change the width but still it remains as a block element*/
+    /*display: inline; /*We will lose the ability to change its width*/ 
+    display: inline-block
+}
+.world{
+    text-decoration: underline;
+}
+span{
+    background-color: aquamarine;
+    width: 100px; /*No change will happen unless it's display is changed to block*/
+    /*display: block;*/
+}
+.second-p{
+    display: none; /*it completely removes it from the webpage*/
+    /*visibilty: hidden; 
+    //only its visibiity is hidden, but the space alloted to it still exists, other elements still flow around it as if it's still there*/
+}
+/*Occupy the same line and we can set thier widths :-----inline block*/
