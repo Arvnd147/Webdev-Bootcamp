@@ -1,0 +1,38 @@
+p{
+    background-color: lightslategrey;
+    padding: 10px;
+    font-size: large;
+}
+.container {
+    position: relative;
+}
+.position{
+position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+.specificity{
+    position: absolute;
+        right: 0;
+        margin-right: 10px;
+}
+.type{
+    position: absolute;
+        right: 0;
+        margin-right: 10px;
+}
+.importance{
+        position: absolute;
+            right: 0;
+            margin-right: 10px;
+}
+html{
+    background-color: rgb(97, 201, 201);
+    font-family: Arial, Helvetica, sans-serif
+}
+h2{
+    text-align: right;
+}
+div{
+    width: fit-content;
+}
