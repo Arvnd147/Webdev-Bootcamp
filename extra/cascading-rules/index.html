@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="position">
+            <h2>Position</h2>
+            <p>
+                <code>
+                        li { <br>
+                        color: red;<br>
+                        color: blue;<br>
+                        }
+                    </code>
+            </p>
+        </div>
+        <div class="specificity">
+            <h2>Specificity</h2>
+            <p>
+                <code>
+                        li {color: blue;} <br>
+                        .first-class {color: red;}<br>
+                        li [draggable] {color: purple;}<br>
+                        #first-id {color: orange}
+                    </code>
+        
+            </p>
+        </div>
+        <div class="type">
+            <h2>Type</h2>
+            <p>
+                <code>
+                    &lt;link rel="stylesheet" href="./style.css"&gt;<br>
+                    &lt;style&gt; &lt;/style&gt;<br>
+                    &lt;h1 style=" "&gt;Hello&lt;/h1&gt;
+                </code>
+            </p>
+        </div>
+        <div class="importance">
+            <h2>Importance</h2>
+            <p>
+                <code>
+                        color: red;
+                        color: green important;
+                </code>
+            </p>
+        </div>
+    </div>
+    
+</body>
+
+</html>
